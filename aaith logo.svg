@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="aaith logo.svg">
+  <defs
+     id="defs2">
+    <pattern
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect5266"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient5994"
+       gradientUnits="userSpaceOnUse"
+       x="7.4918656"
+       y="186.62598">
+      <meshrow
+         id="meshrow5996">
+        <meshpatch
+           id="meshpatch5998">
+          <stop
+             path="c 39.1937,0  78.3874,0  117.581,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop6000" />
+          <stop
+             path="c 0,30.0225  0,60.0451  0,90.0676"
+             style="stop-color:#fcf2f2;stop-opacity:1"
+             id="stop6002" />
+          <stop
+             path="c -39.1937,0  -78.3874,0  -117.581,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop6004" />
+          <stop
+             path="c 0,-30.0225  0,-60.0451  0,-90.0676"
+             style="stop-color:#fcf2f2;stop-opacity:1"
+             id="stop6006" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="119.64994"
+     inkscape:cy="265.97071"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:snap-text-baseline="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-164.70832)">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.84920394;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.8492039, 1.69840778;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect6008"
+       width="132.29167"
+       height="132.29167"
+       x="0"
+       y="164.70831" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30.42688179px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fcf2f2;fill-opacity:1;stroke:none;stroke-width:0.76034206;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.76034206, 1.52068412;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="8.2359056"
+       y="266.82492"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="8.2359056"
+         y="266.82492"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.91068268px;font-family:aaith;-inkscape-font-specification:aaith;fill:#fcf2f2;fill-opacity:1;stroke:none;stroke-width:0.76034206;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.76034206, 1.52068412;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers">aaith</tspan></text>
+    <rect
+       style="fill:#fcf2f2;fill-opacity:1;stroke:none;stroke-width:0.86699992;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect6012"
+       width="87.664398"
+       height="0.52916664"
+       x="22.183371"
+       y="277.2435" />
+    <rect
+       style="fill:#fcf2f2;fill-opacity:1;stroke:none;stroke-width:0.86699998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect6012-0"
+       width="87.664398"
+       height="0.52916664"
+       x="22.707169"
+       y="186.35846" />
+  </g>
+</svg>

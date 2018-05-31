@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{Title}</title>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="fasi.css" />
+    <style>{CustomCSS}</style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="lbar">
+        <center><img src="https://i.imgur.com/U91JsAF.png" width="50%" draggable="false"></center>
+        <div id="navbar">
+        <div id="links">
+        <img src="https://i.imgur.com/Ae4ftNT.png" draggable="false" align="left">
+            <span class="nav-links"><a href="{BlogURL}">Home</a></span><br>
+            <span class="nav-links"><a href="{BlogURL}tagged/world">World</a></span><br>            
+            <span class="nav-links"><a href="{BlogURL}tagged/races">Races</a></span><br>
+            <span class="nav-links"><a href="{BlogURL}tagged/language">Language</a></span><br>
+            <span class="nav-links"><a href="{BlogURL}ask">{AskLabel}</a></span><br>
+            <span class="nav-links"><a href="{BlogURL}tagged/aspenkohei">Aspen and Kōhei</a></span>
+            <span class="nav-links"><a href="{BlogURL}tagged/tales">Short Tales</a></span><br>
+        </div>
+        </div>
+        <div id="pagination">
+            {block:PreviousPage}
+                <a href="{PreviousPage}">&#171; </a>
+            {/block:PreviousPage}{block:NextPage}
+                <a href="{NextPage}"> &#187;</a>
+            {/block:NextPage}
+        </div><br><br>        
+        <div id="desc">
+            {block:Description}
+            <span>{Description}<br><br>
+                <center>{CopyrightYears}</center>
+            </span>
+            {/block:Description}
+        </div>
+        <div id="hokumi">
+            designed by <a href="https://hokumi.tumblr.com">Hokumi</a> with love
+        </div>
+    </div>
+    <div id="center">
+    <div id="header">
+        <h1>Welcome to {Title}</h1>
+    </div>
+    <div id="posts">
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <a href="">deserunt mollit</a> anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3>Header</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        {block:Posts}
+        {block:Text}
+        <div class="text">
+            {block:Title}
+                <h3><a href="{Permalink}">{Title}</a></h3>
+            {/block:Title}{Body}
+        </div><br>
+        {/block:Text}
+        {block:Photo}
+        <div class="photo">
+            <img src="{PhotoURL-1280}" alt="{PhotoAlt}"/>
+
+            {block:Caption}
+                <div class="caption text">{Caption}</div>
+            {/block:Caption}
+        </div><br>
+        {/block:Photo}
+        {block:Panorama}
+        <div class="pan">
+            {LinkOpenTag}
+                <img src="{PhotoURL-Panorama}" alt="{PhotoAlt}"/>
+            {LinkCloseTag}{block:Caption}
+                <div class="caption text">{Caption}</div>
+            {/block:Caption}
+        </div><br>
+        {/block:Panorama}
+        {block:Photoset}
+        <div class="photoset">
+            {Photoset-700}{block:Caption}
+                <div class="caption text">{Caption}</div>
+            {/block:Caption}
+        </div><br>
+        {/block:Photoset}
+        {block:Quote}
+        <div class="quote text">
+            "{Quote}"
+
+            {block:Source}
+                <div class="source text">— {Source}</div>
+            {/block:Source}
+        </div><br>
+        {/block:Quote}
+        {block:Link}
+        <div class="link text">
+            <h3><a href="{URL}" {Target}>{Name}</a></h3>
+            {block:Description}
+                <div class="caption text">{Description}</div>
+            {/block:Description}
+        </div><br>
+        {/block:Link}
+        {block:Chat}
+        <div class="chat text">
+            {block:Title}
+                <h3><a href="{Permalink}">{Title}</a></h3>
+            {/block:Title}
+            <div class="chat">
+                {block:Lines}
+                    <p class="{Alt} user_{UserNumber}">
+                        {block:Label}
+                            <span class="label">{Label}</span>
+                        {/block:Label}{Line}
+                    </p>
+                {/block:Lines}
+            </div>
+        </div><br>
+        {/block:Chat}
+        {block:Video}
+        <div class="video">
+            {Video-700}{block:Caption}
+                <div class="caption text">{Caption}</div>
+            {/block:Caption}
+        </div><br>
+        {/block:Video}
+        {block:Audio}
+        <div class="audio">
+            {AudioEmbed}{block:Caption}
+                <div class="caption text">{Caption}</div>
+            {/block:Caption}
+        </div><br>
+        {/block:Audio}
+        <div class="text date">
+        <div class="text notes">
+        {block:RebloggedFrom} 
+        <p><a href="{ReblogParentURL}">reblog</a> | <a href="{ReblogRootURL}">source</a></p>
+        {/block:RebloggedFrom}<p class="text author">Written by: <a href="{PostAuthorURL}">{PostAuthorName}</a></p>
+        </div>
+        {block:Date}<p>on {ShortMonth} of {Year}, {TimeAgo}</p>{/block:Date}          
+        </div><br><br><br>
+        {/block:Posts}
+        {block:ContentSource}{SourceURL}
+        {block:SourceLogo}<img src="{BlackLogoURL}"width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />{/block:SourceLogo}
+        {block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo}
+        {/block:ContentSource}
+        
+    </div>
+</div>
+    <div id="rbar">
+        <center><p>Aspen Trees</p></center>
+    </div>
+</div>    
+</body>
+</html>

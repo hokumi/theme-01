@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+::selection {
+    background-color: rgb(134, 177, 233);
+    color: rgb(245, 245, 245);
+}
+
+@font-face { 
+    font-family: Aaith; src: url('https://static.tumblr.com/gfmgf8e/jZDp9gzo0/aaith_1.1.ttf');
+} 
+
+body {
+    background-color: rgb(255, 242, 242);
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 2.5em;
+    user-select: none;
+    -webkit-user-select: none;
+    border-bottom: 4px double;
+    text-transform: none;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: #343838;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    text-indent: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #FF6768;
+    transition: 0.3s all;
+    -moz-transition: 0.3s all;
+}
+
+a:hover {
+    color: #515151;
+    transition: 0.3s all;
+    -moz-transition: 0.3s all;
+}
+
+#lbar a:hover {
+    color: rgb(255, 242, 242);
+    transition: 0.3s all;
+    -moz-transition: 0.3s all;
+}
+
+.text {
+    color: #515151;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+}
+
+.aaith {
+    font-family: 'Aaith', 'Lato', sans-serif;
+}
+
+#wrap {
+    position: relative;
+}
+
+#center {
+    background-color: rgb(255, 242, 242);
+    height: 100%;
+    position: relative;
+    width: 65%;
+    left: 20.7%;
+    top: 0;
+}
+
+#header {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 3em 2em 5em 2em;
+}
+
+#posts {
+    background-color: rgb(255, 242, 242);
+    padding: 2em 4em 2em 3em;
+    margin: 2.8em 0 3em 0;
+    border-radius: 4px;
+    text-align: justify;
+    margin: 2em auto;
+    width: 70%;
+}
+
+#lbar {
+    background-color: #202020;
+    padding: 3em 1em 0 1em;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 18%;
+    color:  rgb(255, 242, 242);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#navbar {
+    padding: 3em 1em 0 4em;
+}
+
+#links {
+    margin-left: 0.3em;
+}
+
+
+#rbar {
+    background: url("https://i.imgur.com/dOWkpiZ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 14%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#rbar p {
+    right: 30%;
+    bottom: 1%;
+    position: absolute;
+    color: rgb(255, 242, 242);
+    font-size: 0.8em;
+}
+
+#hokumi {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 18%;
+}
+
+#descrip {
+    text-align: justify;
+}
+
+#pagination{
+    margin-top: 80%;
+    text-align: center;
+}
+
+#links {
+    float: left;
+    padding: 0 0 0 0.2em;
+}
+
+.post-photo {
+    padding: 0;
+}
+
+.caption {
+    padding: inherit;
+}
+
+ul, ol {
+    padding-left: 2.1em;
+    text-indent: 0;
+}
+
+.text {
+    text-indent: 1em;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.pan img {
+    width: 100%;
+}
+
+.photoset img {
+    width: 100%;
+}
+
+.source {
+    text-align: right;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+    text-indent: 0;
+}
+
+.quote {
+    text-indent: 0;
+}
+
+.caption {
+    text-indent: 0;
+}
+
+.chat p {
+    padding: 0.3em 0 0.3em 0;
+    text-indent: 0;
+}
+
+.chat p:nth-child(even) {
+    background-color: #FAEDED;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 0.5em;
+    text-indent: 0;
+}
+
+.video iframe {
+    width: 100%;
+}
+
+.audio iframe {
+    width: 100%;
+}
+
+.date {
+    font-size: 0.7em;
+    border-top: 1px solid #202020;
+    text-align: right;
+    text-indent: 0;
+}
+
+.notes {
+    float: left;
+    text-indent: 0;
+}
+
+#desc {
+    text-align: center;
+}
+
+.nav-links {
+    padding-left: 0.3em;
+}
+
+.author {
+    font-size: 1.1em;
+    text-indent: 0;
+}
